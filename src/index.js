@@ -39,13 +39,13 @@ ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
             <div>
-                <AuthRoute></AuthRoute>{/* 登录验证组件 */}
+                {/* <AuthRoute></AuthRoute>登录验证组件 */}
                 <Switch>
-                    <Route path="/geniusInfo" component={GeniusInfo}/>
+                    {/* <Route path="/geniusInfo" component={GeniusInfo}/>
                     <Route path="/bossinfo" component={BossInfo}/>
                     <Route path='/login' component={Login}/>
                     <Route path='/register' component={Register}/>
-                    <Route path="/chat/:id/:name" component={ChatDetails}/>
+                    <Route path="/chat/:id/:name" component={ChatDetails}/> */}
                     <Route component={Home}/>
                 </Switch>
             </div>

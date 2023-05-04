@@ -100,15 +100,15 @@ export function sendMsg(data){
 //获取聊天信息
 export function getChatList(){
     return (dispatch,getState)=>{
-        axios.post("/user/getChatList").then(res=>{
-            if(res.code===1){
-                let {_id} = getState().user;
-                dispatch(getList(res.data,_id))
-            }else{
-                Toast.msg(res.msg)
-            }
-        }).catch(err=>{
+        // axios.post("/user/getChatList").then(res=>{
+        //     if(res.code===1){
+        //         let {_id} = getState().user;
+        //         dispatch(getList(res.data,_id))
+        //     }else{
+        //         Toast.msg(res.msg)
+        //     }
+        // }).catch(err=>{
 
-        })
+        // })
     }
 }

@@ -17,7 +17,8 @@ class Boss extends React.Component{
         
         return (
             <div>
-                <UserCard userLists={data}></UserCard>
+                {/* <UserCard userLists={data}></UserCard> */}
+                111
             </div>
         )
     }

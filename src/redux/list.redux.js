@@ -31,15 +31,15 @@ export function userList(data){
 //异步action触发请求
 export function actionUserList(type){
     return dispatch=>{
-        axios.post("/user/list",{type}).then(res=>{
-            if(res.code===1){
-                //同步action变动store数据
-                dispatch(userList(res.data))
-            }else{
-                Toast.fail(res.msg)
-            }
-        }).catch(err=>{
-            Toast.fail("请求出错")
-        })
+        // axios.post("/user/list",{type}).then(res=>{
+        //     if(res.code===1){
+        //         //同步action变动store数据
+        //         dispatch(userList(res.data))
+        //     }else{
+        //         Toast.fail(res.msg)
+        //     }
+        // }).catch(err=>{
+        //     Toast.fail("请求出错")
+        // })
     }
 }

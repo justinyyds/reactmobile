@@ -17,7 +17,8 @@ class Genius extends React.Component{
 
         return (
             <div>
-               <UserCard userLists={data}></UserCard> 
+               {/* <UserCard userLists={data}></UserCard>  */}
+               222
             </div>
         )
     }
