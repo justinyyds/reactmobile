@@ -1,0 +1,15 @@
+.leftIcon{
+   /* margin-top: 25px; */
+}
+.adm-list-item-content-main{
+    /* padding: 0; */
+}
+
+
+.adm-form-item-child-inner .adm-list-card{
+    display: flex;
+}
+.adm-form-item-child-inner .adm-list-card .adm-list-header{
+    margin-top: 9px;
+    padding-right: 0;
+}

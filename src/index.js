@@ -17,13 +17,7 @@ import reducers from "./reducer";
 import registerServiceWorker from './registerServiceWorker';
 import "./http";
 
-import Login from "./container/login/login";
-import Register from "./container/register/register";
-import AuthRoute from "./components/authroute/authroute";
-import BossInfo from "./container/bossinfo/bossinfo";
-import GeniusInfo from "./container/geniusinfo/geniusinfo";
 import Home from "./container/home/home";
-import ChatDetails from "./container/chat-details/chat-details";
 
 import "./static/fronts/iconfont.css";
 import "./static/css/main.css";
